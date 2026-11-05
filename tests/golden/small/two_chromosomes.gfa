@@ -1,0 +1,12 @@
+S	1	AAAA
+S	2	CC
+S	3	GGG
+S	4	TT
+S	5	A
+L	1	+	2	+	0M
+L	3	+	4	+	0M
+L	2	+	5	+	0M
+L	5	+	3	+	0M
+W	CHM13	0	chr1	0	6	>1>2
+W	CHM13	0	chr2	0	5	>3>4
+W	A	1	c	0	12	>1>2>5>3>4

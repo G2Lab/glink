@@ -1,0 +1,22 @@
+# Build outputs
+/build/
+*.o
+
+# Data and results, none of it source
+/data
+/work/
+results/
+/figures/logs/
+/figures/old_results/
+.glink-cache/
+
+# Python
+__pycache__/
+.pytest_cache/
+
+# Local environments, often symlinks
+/.venv
+/tools
+
+# Paper figures, kept out of the repository
+/figures/
